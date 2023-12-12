@@ -2,6 +2,8 @@ name: Run CI then push to Docker Hub
 
 on:
   push:
+    branches:
+      - master
     tags:
       - '*'
 
